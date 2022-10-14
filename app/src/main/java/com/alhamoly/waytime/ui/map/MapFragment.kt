@@ -65,6 +65,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
 
     private fun setup() {
 
+        // TODO: testing git
         prepareMap()
         binding.btn.setOnClickListener { mMap.mapType = GoogleMap.MAP_TYPE_HYBRID }
 
